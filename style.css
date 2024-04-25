@@ -1,0 +1,10 @@
+.carousel-item {
+    height: clamp(400px,60vw, 1050px);
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-position: center;
+}
